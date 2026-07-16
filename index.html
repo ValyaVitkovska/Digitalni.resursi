@@ -181,8 +181,9 @@
     transform:perspective(1100px) rotateX(1deg) rotateY(-2deg) translateY(-7px) translateZ(14px);
     box-shadow:11px 14px 0 rgba(22,184,178,.16),24px 31px 48px rgba(24,54,74,.24),inset 0 1px 0 #fff;
   }
-  .hero-illustration{width:100%;display:block;max-width:280px;margin:0 auto;transform:translateZ(34px);filter:drop-shadow(0 13px 10px rgba(24,54,74,.16));}
+  .hero-illustration{width:100%;display:block;max-width:560px;margin:0 auto;transform:translateZ(34px);filter:drop-shadow(0 13px 10px rgba(24,54,74,.16));}
   .hero-illustration svg{width:100%;height:auto;display:block;}
+  .hero-main-image{width:100%;height:auto;display:block;border-radius:14px;box-shadow:0 10px 24px rgba(24,54,74,.16);}
   .hero-illustration use{fill:none;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round;}
   .hero-illustration use[href="#visual-quadratic"]{stroke:var(--violet-dark);}
   .hero-illustration use[href="#visual-circle"]{stroke:var(--turquoise-dark);}
@@ -718,12 +719,7 @@
     </div>
     <div class="hero-visual-panel">
       <div class="hero-illustration">
-        <svg viewBox="0 0 240 180" aria-hidden="true">
-          <use href="#visual-quadratic" x="0" y="0" width="120" height="90"/>
-          <use href="#visual-circle" x="120" y="0" width="120" height="90"/>
-          <use href="#visual-combinatorics" x="0" y="90" width="120" height="90"/>
-          <use href="#visual-vectors" x="120" y="90" width="120" height="90"/>
-        </svg>
+        <img src="hero-math-3d.png" class="hero-main-image" alt="3D композиция с учебници, калкулатор, геометрични тела и послания за математиката">
       </div>
       <div class="hero-chip-row" id="heroChipRow"></div>
     </div>
